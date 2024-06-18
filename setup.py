@@ -1,19 +1,26 @@
 from setuptools import setup, find_packages
 
+# Read the contents of your README file for the long description
+with open("magic_space/README.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
+
 setup(
-    name="magic_space",
+    name="magicspace",
     version="0.1.0",
-    description="A tool for managing workspaces.",
-    author="Your Name",
-    author_email="your.email@example.com",
-    url="https://github.com/yourusername/magic_space",
+    description="Fast tool to open a set of apps (workspace) using a single command.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    author="Lakshya Sharma",
+    author_email="lakshya7878@gmail.com",
+    license="MIT License",
+    url="https://github.com/lakshya7878/MagicSpace",
     packages=find_packages(where="."),
     install_requires=[
         "argparse",
     ],
     entry_points={
         "console_scripts": [
-            "magic_space = magic_space.main:main",
+            "magicspace = magic_space.main:main",
         ],
     },
     classifiers=[
