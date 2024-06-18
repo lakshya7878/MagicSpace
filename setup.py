@@ -6,7 +6,7 @@ with open("magic_space/README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="magicspace",
-    version="0.1.0",
+    version="1.0.0",
     description="Fast tool to open a set of apps (workspace) using a single command.",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -15,9 +15,7 @@ setup(
     license="MIT License",
     url="https://github.com/lakshya7878/MagicSpace",
     packages=find_packages(where="."),
-    install_requires=[
-        "argparse",
-    ],
+    install_requires=[],
     entry_points={
         "console_scripts": [
             "magicspace = magic_space.main:main",
