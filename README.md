@@ -13,6 +13,8 @@ MagicSpace allows user to build different workspaces and open apps in a specific
 
 Check out the [magicspace](https://pypi.org/project/magicspace/) project on PyPI.
 
+![Demo GIF](demo.gif)
+
 ## Features
 
 - Create different workspaces and add apps to those workspaces
