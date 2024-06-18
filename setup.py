@@ -15,6 +15,8 @@ setup(
     license="MIT License",
     url="https://github.com/lakshya7878/MagicSpace",
     packages=find_packages(where="."),
+    package_data={"": ["README.md"]},
+    include_package_data=True,
     install_requires=[],
     entry_points={
         "console_scripts": [
