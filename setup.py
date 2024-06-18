@@ -6,7 +6,7 @@ with open("magic_space/README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="magicspace",
-    version="1.0.0",
+    version="1.0.1",
     description="Fast tool to open a set of apps (workspace) using a single command.",
     long_description=long_description,
     long_description_content_type="text/markdown",
